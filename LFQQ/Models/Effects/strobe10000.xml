@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+    <path>strobe10000.ac</path>
+
+    <!-- Note: reordered/changed animations per this thread
+        'Timed animation stops working in certain configuration'
+        https://sourceforge.net/p/flightgear/mailman/message/37090714/
+    -->
+    <animation>
+        <type>noshadow</type>
+        <object-name>strobe10000</object-name>
+        <object-name>BLANK</object-name>
+    </animation>
+
+    <animation>
+        <type>alpha-test</type>
+        <alpha-factor>0.01</alpha-factor>
+    </animation>
+
+     <animation>
+         <type>timed</type>
+         <object-name>strobe10000</object-name>
+         <object-name>BLANK</object-name>
+         <use-personality type="bool">true</use-personality>
+         <branch-duration-sec>3.0</branch-duration-sec>
+         <branch-duration-sec>0.1</branch-duration-sec>
+    </animation>
+
+    <animation>
+        <type>billboard</type>
+        <object-name>strobe10000</object-name>
+        <spherical type="bool">true</spherical>
+    </animation>
+
+    <animation>
+        <type>dist-scale</type>
+        <object-name>strobe10000</object-name>
+        <interpolation>
+            <entry>
+              <ind>0</ind>
+              <dep>0.2</dep>
+            </entry>
+            <entry>
+              <ind>300</ind>
+              <dep>0.4</dep>
+            </entry>
+            <entry>
+              <ind>1500</ind>
+              <dep>1</dep>
+            </entry>
+            <entry>
+              <ind>4000</ind>
+              <dep>3</dep>
+            </entry>
+            <entry>
+              <ind>10000</ind>
+              <dep>5</dep>
+            </entry>
+        </interpolation>
+    </animation>
+  
+</PropertyList>

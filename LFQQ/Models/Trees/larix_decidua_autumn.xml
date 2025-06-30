@@ -1,0 +1,10 @@
+<PropertyList>
+
+ <path>larix_decidua_autumn.ac</path>
+
+ <animation>
+  <type>billboard</type>
+  <spherical>false</spherical>
+ </animation>
+
+ </PropertyList>

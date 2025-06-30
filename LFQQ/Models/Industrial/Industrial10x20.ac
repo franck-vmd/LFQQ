@@ -1,0 +1,94 @@
+AC3Db
+MATERIAL "ac3dmat1" rgb 1 1 1  amb 0.2 0.2 0.2  emis 0 0 0  spec 0.2 0.2 0.2  shi 128  trans 0
+MATERIAL "ac3dmat13" rgb 0.868421 0.868421 0.868421  amb 0.2 0.2 0.2  emis 0 0 0  spec 0.2 0.2 0.2  shi 128  trans 0
+MATERIAL "DefaultWhite" rgb 1 1 1  amb 1 1 1  emis 0 0 0  spec 0.5 0.5 0.5  shi 64  trans 0
+OBJECT world
+kids 2
+OBJECT poly
+name "Plane"
+data 9
+Plane.001
+texture "tex_sh_ind10x20.png"
+crease 30.000000
+numvert 10
+10 3.3 -5
+10 -4.7 -5
+10 3.3 5
+-10 3.3 -5
+-10 -4.7 -5
+-10 3.3 5
+-10 -4.7 5
+10 -4.7 5
+10 6.3 0
+-10 6.3 -1e-06
+numsurf 6
+SURF 0x0
+mat 1
+refs 4
+0 1 0.613281
+2 0.730469 0.613281
+7 0.730469 0
+1 1 0
+SURF 0x0
+mat 1
+refs 4
+0 5.96046e-08 0.607244
+1 0 0
+4 0.5 0
+3 0.5 0.607244
+SURF 0x0
+mat 1
+refs 4
+3 0.5 0.613281
+4 0.5 0
+6 0.787109 0
+5 0.787109 0.613281
+SURF 0x0
+mat 1
+refs 4
+5 0.5 0.611151
+6 0.5 0
+7 5.96046e-08 0
+2 5.96046e-08 0.611151
+SURF 0x0
+mat 0
+refs 3
+0 0.366211 0.621094
+2 0.0517578 0.621094
+8 0.208984 1
+SURF 0x0
+mat 1
+refs 3
+3 0.598633 0.630682
+5 0.706055 0.630682
+9 0.706055 1
+kids 0
+OBJECT poly
+name "Plane.001"
+data 9
+Plane.002
+texture "tex_sh_ind10x20.png"
+crease 30.000000
+numvert 6
+10 3.3 5
+-10 3.3 5
+10 6.3 -1e-06
+10 3.3 -5
+-10 3.3 -5
+-10 6.3 2e-06
+numsurf 2
+SURF 0x0
+mat 2
+refs 4
+1 0.500977 0.623047
+0 1 0.623047
+2 1 1
+5 0.500977 1
+SURF 0x0
+mat 2
+refs 4
+3 0 0.621094
+4 0.5 0.621094
+5 0.5 1
+2 0 1
+kids 0

@@ -1,0 +1,10 @@
+<PropertyList>
+
+ <path>coniferous-tree.ac</path>
+
+ <animation>
+  <type>billboard</type>
+  <spherical>false</spherical>
+ </animation>
+
+ </PropertyList>

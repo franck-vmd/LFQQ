@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Original model by Emmanuel Baranger. Modified by Hans Kunkell (hansk@mailfence.com), 2020. -->
+
+<PropertyList>
+
+  <path>do228-nca.ac</path>
+
+  <animation>
+    <type>material</type>
+    <object-name>fuselage</object-name>
+    <emission>
+      <red>   0.1 </red>
+      <green> 0.1 </green>
+      <blue>  0.1 </blue>
+    </emission>
+  </animation>
+	
+</PropertyList>

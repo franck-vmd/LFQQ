@@ -1,0 +1,10 @@
+<PropertyList>
+
+ <path>platanus_hispanica8m.ac</path>
+
+ <animation>
+  <type>billboard</type>
+  <spherical>false</spherical>
+ </animation>
+ 
+ </PropertyList>

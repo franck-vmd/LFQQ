@@ -1,0 +1,320 @@
+AC3Db
+MATERIAL "concrete" rgb 0.2266 0.2266 0.2266  amb 0.2266 0.2266 0.2266  emis 0 0 0  spec 0.5 0.5 0.5  shi 10  trans 0
+MATERIAL "olive_green" rgb 0.0132 0.0522 0.0139  amb 0.0132 0.0522 0.0139  emis 0 0 0  spec 0.5 0.5 0.5  shi 50  trans 0
+MATERIAL "metal" rgb 0.5489 0.5489 0.5489  amb 0.5489 0.5489 0.5489  emis 0 0 0  spec 0.5 0.5 0.5  shi 50  trans 0
+OBJECT world
+kids 4
+OBJECT poly
+name "fundament"
+loc 0 -0.75 0
+crease 45.000000
+numvert 8
+0.7 -0.75 -0.45
+0.7 -0.75 0.45
+-0.7 -0.75 0.45
+-0.699999 -0.75 -0.45
+0.7 0.75 -0.45
+0.699999 0.75 0.45
+-0.7 0.75 0.45
+-0.7 0.75 -0.45
+numsurf 6
+SURF 0x20
+mat 0
+refs 4
+0 0 0
+1 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 0
+refs 4
+4 0 0
+7 0 0
+6 0 0
+5 0 0
+SURF 0x20
+mat 0
+refs 4
+0 0 0
+4 0 0
+5 0 0
+1 0 0
+SURF 0x20
+mat 0
+refs 4
+1 0 0
+5 0 0
+6 0 0
+2 0 0
+SURF 0x20
+mat 0
+refs 4
+2 0 0
+6 0 0
+7 0 0
+3 0 0
+SURF 0x20
+mat 0
+refs 4
+4 0 0
+0 0 0
+3 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "wheels_left"
+loc -0.8 7.95 0
+crease 45.000000
+numvert 8
+-0.1 -0.15 0.7
+-0.1 -0.15 -0.7
+0.1 -0.15 -0.7
+0.1 -0.15 0.7
+-0.1 0.15 0.7
+-0.1 0.15 -0.7
+0.1 0.15 -0.7
+0.1 0.15 0.7
+numsurf 6
+SURF 0x20
+mat 2
+refs 4
+1 0 0
+0 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 2
+refs 4
+5 0 0
+6 0 0
+2 0 0
+1 0 0
+SURF 0x20
+mat 2
+refs 4
+6 0 0
+7 0 0
+3 0 0
+2 0 0
+SURF 0x20
+mat 2
+refs 4
+0 0 0
+3 0 0
+7 0 0
+4 0 0
+SURF 0x20
+mat 2
+refs 4
+0 0 0
+1 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 2
+refs 4
+7 0 0
+6 0 0
+5 0 0
+4 0 0
+kids 0
+OBJECT poly
+name "wheels_right"
+loc 2.8 7.95 0
+crease 45.000000
+numvert 8
+-0.0999999 -0.15 0.7
+-0.0999999 -0.15 -0.7
+0.0999999 -0.15 -0.7
+0.0999999 -0.15 0.7
+-0.0999999 0.15 0.7
+-0.0999999 0.15 -0.7
+0.0999999 0.15 -0.7
+0.0999999 0.15 0.7
+numsurf 6
+SURF 0x20
+mat 2
+refs 4
+1 0 0
+0 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 2
+refs 4
+5 0 0
+6 0 0
+2 0 0
+1 0 0
+SURF 0x20
+mat 2
+refs 4
+6 0 0
+7 0 0
+3 0 0
+2 0 0
+SURF 0x20
+mat 2
+refs 4
+0 0 0
+3 0 0
+7 0 0
+4 0 0
+SURF 0x20
+mat 2
+refs 4
+0 0 0
+1 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 2
+refs 4
+7 0 0
+6 0 0
+5 0 0
+4 0 0
+kids 0
+OBJECT poly
+name "main_structure"
+loc 0 4 0
+crease 45.000000
+numvert 20
+-0.5 -4 0.3
+-0.5 -4 -0.3
+0.5 -4 -0.3
+0.5 -4 0.3
+0.9 4 0.2
+0.9 4 -0.2
+1.5 4 -0.2
+1.5 4 0.2
+-0.2 4.4 0.2
+-0.2 4.4 -0.2
+2 4.4 -0.2
+2 4.4 0.2
+3 4.4 -0.2
+3 4.8 -0.2
+3 4.8 0.2
+3 4.4 0.2
+-1 4.4 0.2
+-1 4.8 0.2
+-1 4.8 -0.2
+-1 4.4 -0.2
+numsurf 16
+SURF 0x20
+mat 1
+refs 6
+13 0 0
+12 0 0
+10 0 0
+9 0 0
+19 0 0
+18 0 0
+SURF 0x20
+mat 1
+refs 6
+17 0 0
+16 0 0
+8 0 0
+11 0 0
+15 0 0
+14 0 0
+SURF 0x20
+mat 1
+refs 4
+13 0 0
+18 0 0
+17 0 0
+14 0 0
+SURF 0x20
+mat 1
+refs 4
+1 0 0
+0 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 1
+refs 4
+5 0 0
+6 0 0
+2 0 0
+1 0 0
+SURF 0x20
+mat 1
+refs 4
+6 0 0
+7 0 0
+3 0 0
+2 0 0
+SURF 0x20
+mat 1
+refs 4
+0 0 0
+3 0 0
+7 0 0
+4 0 0
+SURF 0x20
+mat 1
+refs 4
+0 0 0
+1 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 1
+refs 4
+4 0 0
+7 0 0
+11 0 0
+8 0 0
+SURF 0x20
+mat 1
+refs 4
+12 0 0
+13 0 0
+14 0 0
+15 0 0
+SURF 0x20
+mat 1
+refs 4
+7 0 0
+6 0 0
+10 0 0
+11 0 0
+SURF 0x20
+mat 1
+refs 4
+6 0 0
+5 0 0
+9 0 0
+10 0 0
+SURF 0x20
+mat 1
+refs 4
+5 0 0
+4 0 0
+8 0 0
+9 0 0
+SURF 0x20
+mat 1
+refs 4
+16 0 0
+17 0 0
+18 0 0
+19 0 0
+SURF 0x20
+mat 1
+refs 4
+10 0 0
+12 0 0
+15 0 0
+11 0 0
+SURF 0x20
+mat 1
+refs 4
+8 0 0
+16 0 0
+19 0 0
+9 0 0
+kids 0

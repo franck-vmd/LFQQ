@@ -1,0 +1,15 @@
+<PropertyList>
+
+  <path>superfrelon.ac</path>
+
+	<animation>
+		<type>material</type>
+		<object-name>superfrelon</object-name>
+		<emission>
+			<red>   0.4 </red>
+			<green> 0.4 </green>
+			<blue>  0.4 </blue>
+		</emission>
+	</animation>
+
+</PropertyList>

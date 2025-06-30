@@ -1,0 +1,21 @@
+<PropertyList>
+
+	 
+	<path>EDAK_SHELTER1.ac</path>
+
+
+<animation>
+<type>material</type> 
+<object-name>EDAK_SHELTER12</object-name>
+	<condition>
+		<equals>
+			<property>sim/startup/season</property>
+			<value>winter</value>
+		</equals>
+	</condition>
+ <texture>EDAK_SHELTER13.png</texture>
+ <xsize>125</xsize>
+ <ysize>125</ysize>
+</animation>
+
+</PropertyList>

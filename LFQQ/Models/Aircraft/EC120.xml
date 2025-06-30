@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PropertyList>
+	<path>EC120.ac</path>
+
+
+  <animation>
+  <type>rotate</type>
+  <object-name>blades</object-name>
+  <property>/sim/time/elapsed-sec</property>
+  <factor>-180.0</factor><axis><object-name>rotate</object-name></axis>
+ </animation>
+ 
+ 
+ 
+</PropertyList>

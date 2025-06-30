@@ -1,0 +1,15 @@
+<PropertyList>
+
+ <path>platanus_hispanica6m.ac</path>
+ 
+ <animation>
+     <type>alpha-test</type>
+     <alpha-factor>0.01</alpha-factor>
+ </animation>
+
+ <animation>
+  <type>billboard</type>
+  <spherical>false</spherical>
+ </animation>
+ 
+ </PropertyList>

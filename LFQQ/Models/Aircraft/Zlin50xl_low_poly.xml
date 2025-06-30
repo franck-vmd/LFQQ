@@ -1,0 +1,11 @@
+<PropertyList>
+	<path>Zlin50xl_low_poly.ac</path>
+
+	<animation>
+		<type>range</type>
+                <object-name>Details</object-name>
+		<min-m>0</min-m>
+		<max-m>500</max-m>
+	</animation>
+
+</PropertyList>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PropertyList>
+
+  <path>windturbine_E3120_24m.ac</path>
+
+<animation>
+  <type>rotate</type>
+  <object-name>body.001</object-name>
+  <object-name>nose</object-name>
+  <object-name>Wing1</object-name>
+  <object-name>Wing2</object-name>
+  <object-name>Wing3</object-name>
+   <property>/environment/wind-from-heading-deg</property>
+  <offset-deg>-90</offset-deg>
+  <factor>-1</factor>
+  <axis>
+   <x>0.0</x>
+   <y>0.0</y>
+   <z>1.0</z>
+  </axis>
+  <center>
+   <x-m>0.0</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.0</z-m>
+  </center>
+ </animation>
+
+
+ 
+
+ <animation>
+  <type>spin</type>
+  <object-name>nose</object-name>
+  <object-name>Wing1</object-name>
+  <object-name>Wing2</object-name>
+  <object-name>Wing3</object-name>
+  <use-personality type="bool">true</use-personality>
+  <property>/environment/wind-speed-kt</property>
+  <factor>
+   <random>
+    <min>0.4</min>
+    <max>0.6</max>
+   </random>
+  </factor>
+  <starting-pos-deg>
+   <random>
+    <min>0</min>
+    <max>360</max>
+   </random>
+  </starting-pos-deg>
+  <axis>
+   <x>0.0</x>
+   <y>1.0</y>
+   <z>0.0</z>
+  </axis>
+ <center>
+   <x-m>0.3</x-m>
+   <y-m>0.0</y-m>
+   <z-m>24.8</z-m>
+  </center>
+ </animation>
+ 
+
+</PropertyList>

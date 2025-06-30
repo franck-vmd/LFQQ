@@ -1,0 +1,16 @@
+<PropertyList>
+
+	<path>Hitachi-395-power-car-2.ac</path>
+	
+	<offsets>
+		<x-m>0</x-m>
+		<y-m>0</y-m>
+		<z-m>0</z-m>
+		<heading-deg>180</heading-deg>
+	</offsets>
+
+	<animation>
+		<enable-hot type="bool">false</enable-hot>
+	</animation>
+
+	</PropertyList>

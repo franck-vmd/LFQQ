@@ -1,0 +1,10 @@
+<PropertyList>
+
+ <path>laurier.ac</path>
+
+ <animation>
+  <type>billboard</type>
+  <spherical>false</spherical>
+ </animation>
+
+ </PropertyList>

@@ -1,0 +1,12 @@
+<PropertyList>
+
+ <path>RAFTower.ac</path>
+
+ <animation>
+  <type>range</type>
+  <object-name>Railings</object-name>
+  <min-m>0</min-m>
+  <max-m>1500</max-m>
+ </animation>
+
+</PropertyList>

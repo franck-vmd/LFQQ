@@ -1,0 +1,15 @@
+<PropertyList>
+
+ <path>blast-deflector63m.ac</path>
+ 
+ <animation>
+  <type>noshadow&gt;</type>
+  <object-name>Ends</object-name>
+ </animation>
+         
+ <animation>
+  <type>noshadow&gt;</type>
+  <object-name>Back</object-name>
+ </animation>
+               
+</PropertyList>

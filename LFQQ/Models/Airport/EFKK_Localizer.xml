@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+	
+	<path>EFKK_Localizer.ac</path>
+	
+	
+
+        <model>
+		<name>obst_light_right</name>
+		<path>../../Models/Effects/pos_lamp_red_light_2st.xml</path>
+		<offsets>
+		  <x-m> 3.4036 </x-m>
+		  <y-m> -13.715 </y-m>
+		  <z-m> 3.2 </z-m>
+		  <pitch-deg> 0.00</pitch-deg>
+		  <heading-deg>0.0 </heading-deg>
+		</offsets>
+	</model>
+
+        <model>
+		<name>obst_light_left</name>
+		<path>../../Models/Effects/pos_lamp_red_light_2st.xml</path>
+		<offsets>
+		  <x-m> 3.34036 </x-m>
+		  <y-m> 13.785 </y-m>
+		  <z-m> 3.2 </z-m>
+		  <pitch-deg> 0.00</pitch-deg>
+		  <heading-deg>0.0 </heading-deg>
+		</offsets>
+	</model>
+</PropertyList>

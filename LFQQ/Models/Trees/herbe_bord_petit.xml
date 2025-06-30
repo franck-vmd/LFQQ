@@ -1,0 +1,15 @@
+<PropertyList>
+
+  <path>herbe_bord_petit-ba.ac</path>
+
+  <animation>
+    <type>material</type>
+    <object-name>jour</object-name>
+    <emission>
+      <red>   0.5 </red>
+      <green> 0.5 </green>
+      <blue>  0.5 </blue>
+    </emission>
+  </animation>
+	
+</PropertyList>

@@ -1,0 +1,104 @@
+<PropertyList>
+    
+    
+
+    <path>V126-200m.ac</path>
+    
+    <animation>
+        <type>rotate</type>
+        <object-name>Nacelle</object-name>
+        
+        <object-name>Red_flash_day_off</object-name>
+        <object-name>Red_flash_night_on1</object-name>
+        <object-name>Red_flash_night_off1</object-name>
+        <object-name>Red_flash_night_on2</object-name>
+        <object-name>Red_flash_night_off2</object-name>
+        <object-name>Rotor</object-name>
+        <property>/environment/wind-from-heading-deg</property>
+        <offset-deg>-90</offset-deg>
+        <factor>-1</factor>
+        <axis>
+            <x>0.0</x>
+            <y>0.0</y>
+            <z>1.0</z>
+        </axis>
+        <center>
+            <x-m>0.0</x-m>
+            <y-m>0.0</y-m>
+            <z-m>0.0</z-m>
+        </center>
+    </animation>
+    
+    
+    <animation>
+        <type>spin</type>
+        <object-name>Rotor</object-name>
+        <use-personality type="bool">true</use-personality>
+        <property>/environment/wind-speed-kt</property>
+        <factor>
+            <random>
+                <min>0.4</min>
+                <max>0.6</max>
+            </random>
+        </factor>
+        <starting-pos-deg>
+            <random>
+                <min>0</min>
+                <max>360</max>
+            </random>
+        </starting-pos-deg>
+        <axis>
+            
+            <x>0.0</x>
+            <y>0.9981</y>
+            <z>-0.06</z>
+        </axis>
+        <center>
+            <x-m>0.0</x-m>
+            <y-m>0.0</y-m>
+            <z-m>0.0</z-m>
+        </center>
+    </animation>
+    
+    
+    <animation>
+        <type>select</type>
+        <object-name>Red_light_night_on</object-name>
+        <object-name>Red_flash_night_on1</object-name> 
+        <object-name>Red_flash_night_off1</object-name> 
+        <object-name>Red_flash_night_on2</object-name> 
+        <object-name>Red_flash_night_off2</object-name> 
+        <condition>
+            <greater-than>
+                <property>/sim/time/sun-angle-rad</property>
+                <value>1.57</value>
+            </greater-than>
+        </condition>
+    </animation>
+    
+    
+    <animation>
+        <type>select</type>
+        <object-name>Red_light_day_off</object-name>
+        <object-name>Red_flash_day_off</object-name>
+        <condition>
+            <less-than-equals>
+                <property>/sim/time/sun-angle-rad</property>
+                <value>1.57</value>
+            </less-than-equals>
+        </condition>
+    </animation>
+    
+    
+    <animation>
+        <type>timed</type>
+        <object-name>Red_flash_night_on1</object-name> 
+        <object-name>Red_flash_night_off1</object-name> 
+        <object-name>Red_flash_night_on2</object-name> 
+        <object-name>Red_flash_night_off2</object-name> 
+        <branch-duration-sec>0.8</branch-duration-sec>
+        <branch-duration-sec>0.2</branch-duration-sec>
+        <branch-duration-sec>0.8</branch-duration-sec>
+        <branch-duration-sec>1.7</branch-duration-sec>
+    </animation>
+</PropertyList>

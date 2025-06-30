@@ -1,0 +1,13 @@
+<PropertyList>
+
+ <path>GenericPressureVessel40m.ac</path>
+ 
+ <animation>
+  <type>range</type>
+  <object-name>Railing</object-name>
+  <object-name>Ladder</object-name>
+  <min-m>0</min-m>
+  <max-m>1500</max-m>
+ </animation>
+                   
+</PropertyList>

@@ -1,0 +1,21 @@
+<PropertyList>
+
+ <path>vordme_2.ac</path>
+
+ <animation>
+  <type>range</type>
+  <object-name>vor</object-name>
+  <min-m>0</min-m>
+  <max-m>500</max-m>
+ </animation>
+
+ <animation>
+  <type>range</type>
+  <object-name>dme</object-name>
+  <min-m>0</min-m>
+  <max-m>500</max-m>
+ </animation>
+
+ 
+
+</PropertyList>

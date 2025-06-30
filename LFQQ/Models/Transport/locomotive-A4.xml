@@ -1,0 +1,32 @@
+<PropertyList>
+
+	<path>locomotive-A4.ac</path>
+
+	
+
+	<offsets>
+		<x-m>0</x-m>
+		<y-m>0</y-m>
+		<z-m>0</z-m>
+	</offsets>
+
+	<animation>
+		<enable-hot type="bool">false</enable-hot>
+	</animation>
+
+
+	
+	<model>
+		<path>Models/Generic/Effects/train-steam.xml</path>
+		<name>train-steam-1</name>
+		<offsets>
+			<x-m>-4.10378</x-m>
+			<y-m>0</y-m>
+			<z-m>4.02378</z-m>
+			<heading-deg>0</heading-deg>
+		</offsets>
+	</model>
+
+
+
+</PropertyList>

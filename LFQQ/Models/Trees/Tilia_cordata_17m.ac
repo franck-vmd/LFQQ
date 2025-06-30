@@ -1,0 +1,23 @@
+AC3Db
+MATERIAL "AutoWhite" rgb 1 1 1  amb 1 1 1  emis 0 0 0  spec 0 0 0  shi 16  trans 0
+OBJECT world
+kids 1
+OBJECT poly
+name "Plane"
+loc -0.405688 -0.046442 0
+texture "Tilia_cordata_17m.png"
+crease 45.000000
+numvert 4
+4.69992 20.0467 0
+4.69992 0 0
+-4.69992 0 0
+-4.69992 20.0467 0
+numsurf 1
+SURF 0x0
+mat 0
+refs 4
+0 0.998408 1.08607
+3 0.00472391 1.08607
+2 0.00472391 0.099579
+1 0.998408 0.099579
+kids 0

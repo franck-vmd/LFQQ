@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+  <entry>
+    <path type="string">Airports</path>
+    <stamp type="int">1743417826</stamp>
+  </entry>
+  <entry n="1">
+    <path type="string">Models</path>
+    <stamp type="int">1743417778</stamp>
+  </entry>
+  <entry n="2">
+    <path type="string">Objects/e000n50/e002n50</path>
+    <stamp type="int">1743417820</stamp>
+  </entry>
+  <entry n="3">
+    <path type="string">Objects/e000n50/e003n50</path>
+    <stamp type="int">1743417778</stamp>
+  </entry>
+  <entry n="4">
+    <path type="string">Terrain/e000n50/e002n50</path>
+    <stamp type="int">1743417810</stamp>
+  </entry>
+  <entry n="5">
+    <path type="string">Terrain/e000n50/e003n50</path>
+    <stamp type="int">1743417754</stamp>
+  </entry>
+  <entry n="6">
+    <path type="string">Trees/e000n50/e002n50</path>
+    <stamp type="int">1743417772</stamp>
+  </entry>
+  <entry n="7">
+    <path type="string">Trees/e000n50/e003n50</path>
+    <stamp type="int">1743417728</stamp>
+  </entry>
+  <not-found>
+    <path type="string">AI/Traffic</path>
+    <stamp type="int">1743417792</stamp>
+  </not-found>
+</PropertyList>

@@ -1,0 +1,7 @@
+This folder is managed by FlightGear's download system.
+Any changes you make here or in sub-folders will be overwritten when TerraSync
+downloads updates.
+
+To use custom scenery or data with FlightGear, put it in a different location
+on your computer, then add the location using either the launcher 'Add-ons' page, or by
+passing '--fg-scenery=<location>' on the command line.

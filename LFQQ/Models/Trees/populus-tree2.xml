@@ -1,0 +1,10 @@
+<PropertyList>
+
+ <path>populus-tree2.ac</path>
+
+ <animation>
+  <type>billboard</type>
+  <spherical>false</spherical>
+ </animation>
+ 
+ </PropertyList>

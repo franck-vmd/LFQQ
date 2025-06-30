@@ -1,0 +1,10 @@
+<PropertyList>
+
+ <path>lipa_large.ac</path>
+
+ <animation>
+  <type>billboard</type>
+  <spherical>false</spherical>
+ </animation>
+
+ </PropertyList>
